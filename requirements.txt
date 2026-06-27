@@ -1,0 +1,6 @@
+flask>=3.0
+gunicorn>=21.0
+yfinance>=0.2.40
+pandas>=2.0
+httpx>=0.27
+reportlab>=4.0
