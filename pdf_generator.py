@@ -177,7 +177,7 @@ def generate_pdf_report(report, output_path):
         t = Table(table_data, repeatRows=1)
         t.setStyle(TableStyle([
             ('BACKGROUND', (0, 0), (-1, 0), colors.grey),
-            ('TEXTCOLOR', (0, 0), (-1, 0), colors.whitesmoke),
+            ('TEXTCOLOR', (0, 0), (-1, 0), colors.white),
             ('ALIGN', (0, 0), (-1, -1), 'CENTER'),
             ('FONTNAME', (0, 0), (-1, 0), chinese_font),
             ('FONTSIZE', (0, 0), (-1, 0), 10),
